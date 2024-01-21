@@ -1,4 +1,4 @@
-module github.com/falcosecurity/k8s-metacollector
+module github.com/khulnasoft/k8s-metacollector
 
 go 1.21
 

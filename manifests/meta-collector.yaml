@@ -46,7 +46,7 @@ spec:
               name: "health-probe"
             - containerPort: 45000
               name: "broker-grpc"
-          image: docker.io/falcosecurity/k8s-metacollector:latest
+          image: docker.io/khulnasoft/k8s-metacollector:latest
           name: manager
           securityContext:
             allowPrivilegeEscalation: false

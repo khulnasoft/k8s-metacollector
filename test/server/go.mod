@@ -3,7 +3,7 @@ module test_server
 go 1.21.1
 
 require (
-	github.com/falcosecurity/k8s-metacollector v0.0.0-20231121145239-3b24e6dd4abf
+	github.com/khulnasoft/k8s-metacollector v0.0.0-20231121145239-3b24e6dd4abf
 	google.golang.org/grpc v1.59.0
 )
 

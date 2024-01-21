@@ -9,7 +9,7 @@ linters-settings:
   goheader:
     values:
       const:
-        AUTHORS: The Falco Authors
+        AUTHORS: The Khulnasoft Authors
     template: |-
       SPDX-License-Identifier: Apache-2.0
       Copyright {{ YEAR }} {{ AUTHORS }}

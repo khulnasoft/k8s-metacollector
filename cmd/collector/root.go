@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// Copyright 2023 The Falco Authors
+// Copyright 2023 The Khulnasoft Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@ package collector
 import (
 	"context"
 
-	"github.com/falcosecurity/k8s-metacollector/cmd/collector/run"
-	"github.com/falcosecurity/k8s-metacollector/cmd/collector/version"
 	"github.com/go-logr/logr"
+	"github.com/khulnasoft/k8s-metacollector/cmd/collector/run"
+	"github.com/khulnasoft/k8s-metacollector/cmd/collector/version"
 	"github.com/spf13/cobra"
 )
 
@@ -28,7 +28,7 @@ import (
 func New(ctx context.Context, logger *logr.Logger) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:              "k8s-metacollector",
-		Short:            "Fetches the metadata from kubernetes API server and dispatches them to Falco instances",
+		Short:            "Fetches the metadata from kubernetes API server and dispatches them to Khulnasoft instances",
 		SilenceErrors:    true,
 		SilenceUsage:     true,
 		TraverseChildren: true,

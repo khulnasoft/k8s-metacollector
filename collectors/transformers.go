@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// Copyright 2023 The Falco Authors
+// Copyright 2023 The Khulnasoft Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@ package collectors
 import (
 	"fmt"
 
-	"github.com/falcosecurity/k8s-metacollector/pkg/resource"
 	"github.com/go-logr/logr"
+	"github.com/khulnasoft/k8s-metacollector/pkg/resource"
 	corev1 "k8s.io/api/core/v1"
 	discoveryv1 "k8s.io/api/discovery/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -4,7 +4,7 @@ FROM golang:1.21.1 as builder
 ARG RELEASE
 ARG COMMIT
 ARG BUILD_DATE
-ARG PROJECT=github.com/falcosecurity/k8s-metacollector
+ARG PROJECT=github.com/khulnasoft/k8s-metacollector
 
 WORKDIR /workspace
 # Copy the Go Modules manifests
