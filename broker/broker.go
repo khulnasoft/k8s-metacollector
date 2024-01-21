@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-// Copyright 2023 The Falco Authors
+// Copyright 2023 The Khulnasoft Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/falcosecurity/k8s-metacollector/metadata"
-	"github.com/falcosecurity/k8s-metacollector/pkg/events"
-	"github.com/falcosecurity/k8s-metacollector/pkg/subscriber"
 	"github.com/go-logr/logr"
+	"github.com/khulnasoft/k8s-metacollector/metadata"
+	"github.com/khulnasoft/k8s-metacollector/pkg/events"
+	"github.com/khulnasoft/k8s-metacollector/pkg/subscriber"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

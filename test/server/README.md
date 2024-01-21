@@ -1,6 +1,6 @@
 # Test server
 
-This folder contains a test server that sends a set of predefined JSON events when the Watch API is called. It could be useful for testing the integration with the Falco official plugin for example.
+This folder contains a test server that sends a set of predefined JSON events when the Watch API is called. It could be useful for testing the integration with the Khulnasoft official plugin for example.
 
 ## Build and run
 

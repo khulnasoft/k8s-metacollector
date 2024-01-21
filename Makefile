@@ -15,7 +15,7 @@ endif
 RELEASE?=$(shell git rev-parse HEAD)
 COMMIT?=$(shell git rev-parse HEAD)
 BUILD_DATE?=$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')
-PROJECT?=github.com/falcosecurity/k8s-metacollector
+PROJECT?=github.com/khulnasoft/k8s-metacollector
 
 # Setting SHELL to bash allows bash commands to be executed by recipes.
 # Options are set to exit when a recipe line exits non-zero or a piped command fails.
@@ -120,7 +120,7 @@ fmt: gci addlicense
 	go mod tidy
 	go fmt ./...
 	find . -type f -name '*.go' -a -exec $(GCI) write -s standard -s default -s "prefix(github.com/alacuku/k8s-metadata)" {} \;
-	find . -type f -name '*.go' -exec $(ADDLICENSE) -l apache -c "The Falco Authors" -y "$(shell date +%Y)" {} \;
+	find . -type f -name '*.go' -exec $(ADDLICENSE) -l apache -c "The Khulnasoft Authors" -y "$(shell date +%Y)" {} \;
 
 # Install golangci-lint if not available
 golangci-lint:
