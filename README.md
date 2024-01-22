@@ -1,5 +1,5 @@
 # k8s-metacollector
-(https://github.com/khulnasoft/evolution/blob/main/REPOSITORIES.md#ecosystem-scope) [![Incubating](https://img.shields.io/badge/status-incubating-orange?style=for-the-badge)](https://github.com/khulnasoft/evolution/blob/main/REPOSITORIES.md#incubating)
+ [![Incubating](https://img.shields.io/badge/status-incubating-orange?style=for-the-badge)](https://github.com/khulnasoft/evolution/blob/main/REPOSITORIES.md#incubating)
 
 ⚠️ The repository is still a work in progress ⚠️
 
